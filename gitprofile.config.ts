@@ -40,14 +40,14 @@ const CONFIG = {
             'https://cdn.cloudflare.steamstatic.com/steam/apps/2818530/header.jpg?t=1710278483',
           link: 'https://www.gamedev.net/blumagma711/',
         },
-    //    {
-     //     title: 'Project Name',
-    //      description:
-    //        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-   //       imageUrl:
-   //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-  //        link: 'https://example.com',
- //       },
+        {
+          title: 'Pokemon Speedrunning Scripts and Tools',
+          description:
+            'A collection of work I made for the Pokemon speedrunning scene, mostly scripts that can calculate various RNG elements deterministically.',
+          imageUrl:
+            'https://www.nintendo.com/eu/media/images/10_share_images/games_15/game_boy_advance_7/SI_GBA_PokemonSapphire_enGB.jpg',
+          link: 'https://github.com/billym711/PKMN-RS-Scripts',
+        },
       ],
     },
   },
