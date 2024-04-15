@@ -43,7 +43,7 @@ const CONFIG = {
         {
           title: 'Pokemon Speedrunning Scripts and Tools',
           description:
-            'A collection of work I made for the Pokemon speedrunning scene, mostly scripts that can calculate various RNG elements deterministically.',
+            'A collection of work I made or edited for the Pokemon speedrunning community, mostly scripts that can calculate various RNG elements deterministically.',
           imageUrl:
             'https://www.nintendo.com/eu/media/images/10_share_images/games_15/game_boy_advance_7/SI_GBA_PokemonSapphire_enGB.jpg',
           link: 'https://github.com/billym711/PKMN-RS-Scripts',
