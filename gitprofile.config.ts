@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 4, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['billym711/MidtermApp', 'billym711/RS-Pickup-Frame-Generator', 'billym711/universal-pokemon-randomizer', 'billym711/Exercise-05b-Procedural-Generation'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -47,6 +47,14 @@ const CONFIG = {
           imageUrl:
             'https://www.nintendo.com/eu/media/images/10_share_images/games_15/game_boy_advance_7/SI_GBA_PokemonSapphire_enGB.jpg',
           link: 'https://github.com/billym711/PKMN-RS-Scripts',
+        },
+        {
+          title: 'Unreal Engine Inventory System w/ Blueprints',
+          description:
+            'My first dive into Unreal Engine, featuring an inventory system with toggleable UI, stacking, sorting, and more.',
+          imageUrl:
+            'https://i.pinimg.com/736x/4e/51/e6/4e51e673a4cab52660512041d00e9186.jpg',
+          link: 'https://www.gamedev.net/blogs/entry/2277854-role-analysis-project-2-new-engine-experimentation-unreal-engine-inventory-system-with-blueprints/',
         },
       ],
     },
@@ -187,13 +195,13 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+ // footer: `Made with <a 
+  //    class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //    target="_blank"
+ //     rel="noreferrer"
+ //   >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+ // enablePWA: true,
 };
 
 export default CONFIG;
