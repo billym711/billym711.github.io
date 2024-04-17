@@ -63,7 +63,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/billym711/billym711.github.io/blob/1a280ae35976ced3d7166ce98a56a3db48d52e66/William%20Moore%20Resume%202024.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
