@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'Game Dev Blogs',
           description:
-            'Blogs featuring my work on Conquering Ciros, a game developed in Unity for my capstone project.',
+            'Dev blogs explaining my work on Conquering Ciros, a game developed in Unity for my capstone project. I was predominantly an gameplay programmer and created a good chunk of the crystal attacks.',
           imageUrl:
             'https://cdn.cloudflare.steamstatic.com/steam/apps/2818530/header.jpg?t=1710278483',
           link: 'https://www.gamedev.net/blumagma711/',
