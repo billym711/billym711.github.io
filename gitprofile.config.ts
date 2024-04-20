@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 4, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['billym711/MidtermApp', 'billym711/RS-Pickup-Frame-Generator', 'billym711/universal-pokemon-randomizer', 'billym711/Exercise-05b-Procedural-Generation'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['billym711/RS-Pickup-Frame-Generator', 'billym711/universal-pokemon-randomizer', 'billym711/Exercise-05b-Procedural-Generation'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -55,6 +55,14 @@ const CONFIG = {
           imageUrl:
             'https://i.pinimg.com/736x/4e/51/e6/4e51e673a4cab52660512041d00e9186.jpg',
           link: 'https://www.gamedev.net/blogs/entry/2277854-role-analysis-project-2-new-engine-experimentation-unreal-engine-inventory-system-with-blueprints/',
+        },
+        {
+          title: 'Reverse Engineering/Exploiting GBA Source Code',
+          description:
+            'I searched through decompiled source code from Pokemon Ruby to discover one of the first ever major glitches in the English version of the game.',
+          imageUrl:
+            'https://www.nintendo.com/eu/media/images/10_share_images/games_15/game_boy_advance_7/SI_GBA_PokemonRuby_enGB_image1600w.jpg',
+          link: 'https://docs.google.com/document/d/1TFgMWHzHSufb0QIUnqSB4oVaYq2V0Yh7R-8nxanCqWk/edit?usp=sharing',
         },
       ],
     },
