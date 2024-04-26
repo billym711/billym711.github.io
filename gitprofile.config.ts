@@ -59,7 +59,7 @@ const CONFIG = {
         {
           title: 'Reverse Engineering/Exploiting GBA Source Code',
           description:
-            'I searched through decompiled source code from Pokemon Ruby to discover one of the first ever major glitches in the English version of the game.',
+            'I searched through decompiled C/C++ source code from Pokemon Ruby to discover one of the first ever major glitches in the English version of the game.',
           imageUrl:
             'https://www.nintendo.com/eu/media/images/10_share_images/games_15/game_boy_advance_7/SI_GBA_PokemonRuby_enGB_image1600w.jpg',
           link: 'https://docs.google.com/document/d/1TFgMWHzHSufb0QIUnqSB4oVaYq2V0Yh7R-8nxanCqWk/edit?usp=sharing',
